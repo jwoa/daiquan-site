@@ -1,6 +1,6 @@
 {
-  "name": "ueno-gatsby-starter",
-  "description": "Opinionated Gatsby starter by Ueno",
+  "name": "daiquan-website",
+  "description": "The website for Daiquan.",
   "version": "1.0.0",
   "license": "MIT",
   "keywords": [
@@ -9,7 +9,10 @@
     "react",
     "typescript",
     "gatsby-starter",
-    "ueno"
+    "ueno",
+    "daiquan",
+    "black",
+    "AI"
   ],
   "contributors": [
     "Birkir Gudjonsson <birkir.gudjonsson@gmail.com>",
