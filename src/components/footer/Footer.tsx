@@ -19,29 +19,13 @@ export const Footer = ({ logo, social }: IFooterProps) => (
     <Container>
       <div className={s.footer__content}>
         <a
-          href="https://ueno.co"
+          href="https://jwa.codes/project/daiquan"
           target="_blank"
           rel="noopener noreferrer"
         >
           {logo}
         </a>
 
-        <ul className={s.footer__list}>
-          {social.map((item) => (
-            <li
-              key={item.to}
-              className={s.footer__item}
-            >
-              <a
-                href={item.to}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {item.icon}
-              </a>
-            </li>
-          ))}
-        </ul>
       </div>
     </Container>
   </div>
