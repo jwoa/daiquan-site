@@ -12,14 +12,14 @@ export default () => (
     <Intro>
       Hey, Daiquan is an on going research project that aims to use machine learning
       to create a simple AI system* that understands black culture. It aims to serve as a
-      framework for creatives and artists to make work with. It covers different areas
-      such as <Highlight>Image Recognition</Highlight>,&nbsp; <Highlight>Natural Language Processing</Highlight>,
-      <Highlight>Facial Recognition</Highlight>, <Highlight>Tone Analysis</Highlight>,&nbsp;
-      and a lot of love.
+      framework for creatives and artists to make work with.
+      <br/><br/>
+      It'll cover areas such as <Highlight>Image Recognition</Highlight>,&nbsp; <Highlight>Natural Language Processing</Highlight>,
+      <Highlight>Facial Recognition</Highlight>, and other things we don't know yet.
     </Intro>
 
     <BlockText
-      heading="Clarification"
+      heading="Clarification*"
       description={(
         <>
         I know there's no such thing as a simple AI. Chill.
