@@ -18,13 +18,13 @@ export default () => (
     </Intro>
 
     <BlockText
-      heading="Simple AI"
+      heading="Who we are"
       description={(
         <>
-          I know there's no such thing as a simple AI. I meant more like an open framework that
-          can be used for creative purposes.
+        I know there's no such thing as a simple AI. I meant more like an open framework that
+        can be used for creative purposes. <a href="https://ueno.co" target="_blank" rel="noopener noreferrer">ueno.co</a>.
+        </>
       )}
     />
-
   </>
 );
