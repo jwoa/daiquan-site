@@ -10,10 +10,21 @@ export default () => (
     <Helmet title="Home" />
 
     <Intro>
-      Hello starter by Ueno, using opinionated dependencies 🤪, <Highlight>TypeScript</Highlight>,&nbsp;
-      <Highlight>SCSS</Highlight>, <Highlight>CSS Modules</Highlight>, <Highlight>React Hooks</Highlight>,&nbsp;
-      <Highlight>root resolver</Highlight>, <Highlight>code splitting</Highlight> and a lot of love.
+      Hey, Daiquan is an on going research project that aims to use machine learning
+      to create a simple AI* system that understands black culture. It covers different areas
+      such as <Highlight>Image Recognition</Highlight>,&nbsp; <Highlight>Music</Highlight>,
+      <Highlight>Facial Recognition</Highlight>, <Highlight>Tone Analysis</Highlight>,&nbsp;
+      and a lot of love.
     </Intro>
+
+    <BlockText
+      heading="Simple AI"
+      description={(
+        <>
+          I know there's no such thing as a simple AI. I meant more like an open framework that
+          can be used for creative purposes.
+      )}
+    />
 
   </>
 );
