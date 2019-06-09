@@ -11,10 +11,10 @@ export default () => (
 
     <Intro>
       Hey, Daiquan is an on going research project that aims to use machine learning
-      to create a simple AI system* that understands black culture. It aims to serve as a
+      to create a library that understands black culture*. It aims to serve as a
       framework for creatives and artists to make work with.
       <br/><br/>
-      It'll cover areas such as <Highlight>Image Recognition</Highlight>,&nbsp; <Highlight>Natural Language Processing</Highlight>,
+      It'll cover areas such as <Highlight>Image Recognition</Highlight>,&nbsp; <Highlight>Natural Language&nbsp; Processing</Highlight>,&nbsp;
       <Highlight>Facial Recognition</Highlight>, and other things we don't know yet.
     </Intro>
 
@@ -22,7 +22,7 @@ export default () => (
       heading="Clarification*"
       description={(
         <>
-        I know there's no such thing as a simple AI. Chill.
+        Working on a way to stop this from being misused.
         </>
       )}
     />

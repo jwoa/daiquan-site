@@ -21,13 +21,10 @@ export default ({ children }: IAppLayoutProps) => (
     <Helmet {...helmet} />
 
     <Header>
+
       <HeaderLink
-        name="about"
-        to="/about"
-      />
-      <HeaderLink
-        name="process"
-        to="/about"
+        name="original process"
+        to="https://jwa.codes/projects/daiquan/"
       />
     </Header>
 
