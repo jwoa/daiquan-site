@@ -1,33 +1,22 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import React from "react";
+import "./style.scss";
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
+  <header>
+    <nav>
+      <h1 className="logo">
+        <Link to="/">
           {siteTitle}
         </Link>
       </h1>
-    </div>
+      <ul>
+          {/* <li><Link to="/getting-started/">getting started</Link></li>
+          <li><Link to="/libraries/">libraries</Link></li> */}
+          <li><Link to="https://jwa.codes/projects/daiquan/">original process</Link></li>
+      </ul>
+    </nav>
   </header>
 )
 

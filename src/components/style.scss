@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+header {
+    margin-bottom: 1.45rem;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0px 1.0875rem 1.45rem 0px;
+
+    // Logo
+    .logo {
+        display: inline-block;
+        a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+    }
+
+    // Navigation
+    nav {
+        margin: 0 auto;
+        max-width: 960px;
+        padding: 1.45rem 1.0875rem;
+        display: inline;
+        font-family: 'Open Sans', sans-serif;
+        ul {
+            float: right;
+            li {
+                display: inline;
+                margin: 0px 10px;
+                a {
+                    text-decoration: none;
+                    font-size: 14px;
+                    color: #000;
+                }
+            }
+        }
+    }
+
+}
+
+.left {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.right {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    // text-align: right;
+}
+
+main {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1024px;
+    padding: 0px 1.0875rem 1.45rem;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #333;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    border-bottom: 10px solid #000;
+    a {
+      color: #000;
+    }
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.daiquan {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    #label-container {
+      padding: 0;
+      width: 100%;
+    }
+  }
+  
+  .daiquan div {
+    background-color: #f5f5f5;
+    width: auto;
+    padding: 10px 50px;
+  }
+  
+  .daiquan div:nth-of-type(odd) {
+    background-color: #e6e6e6;
+  }
+  
+
+div.loader {
+    animation: loader-spin infinite 1.2s linear;
+    padding: 0;
+    background-color: transparent !important;
+    height: 50px;
+    width: 50px;
+    border: 5px solid #eee;
+    border-bottom: 5px solid #007bff;
+    border-radius: 50% !important;
+    margin: 2rem;
+  }
+  
+  @keyframes loader-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
