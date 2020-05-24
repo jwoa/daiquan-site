@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
         <footer>
           © {new Date().getFullYear()}, Built with love by
           {` `}
-          <a href="https://www.seasonsix.co">S6</a>
+          <a href="https://www.seasonsix.co" target="_blank" rel="noopener noreferrer">S6</a>
         </footer>
     </>
   )

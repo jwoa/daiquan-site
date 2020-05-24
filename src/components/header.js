@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
       <ul>
           {/* <li><Link to="/getting-started/">getting started</Link></li>
           <li><Link to="/libraries/">libraries</Link></li> */}
-          <li><Link to="https://jwa.codes/projects/daiquan/">original process</Link></li>
+          <li><a href="https://jwa.codes/projects/daiquan/" target="_blank" rel="noopener noreferrer">original process</a></li>
       </ul>
     </nav>
   </header>
